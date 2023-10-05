@@ -1,0 +1,17 @@
+{
+  "name": "dnd-web",
+  "version": "1.0.0",
+  "repository": "git@github.com:LexaHood/DND-WEB.git",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "common-types"
+  ],
+  "scripts": {
+    "start:frontend": "yarn workspace frontend start",
+    "start:backend": "yarn workspace backend start"
+  },
+  "author": "LexaHood, Sam130687",
+  "license": "MIT"
+}
