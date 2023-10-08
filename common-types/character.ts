@@ -2,18 +2,29 @@ import { RaceInterfaces } from "./race";
 import { SkillInterfaces } from "./skill";
 import { WorldviewInterfaces } from "./worldview";
 import { MoneyInterfaces } from "./money";
-import { WeaponInterfaces } from "./weapon";
+import { WeaponsInterfaces } from "./weapons";
+import { SpellsInterfaces } from "./spells";
+import { HitsInterfaces } from "./hits";
 
 export interface CharacterInterfaces {
     name: string;
-    image: ImageBitmap;
+    image?: ImageBitmap;
     class: string;
     level: number;
     history: string;
     race: RaceInterfaces;
     worldview: WorldviewInterfaces;
     experience: number;
+    armorСlass: number;
+    initiative: number;
+    speed: number;
+    health: HitsInterfaces;
+    tempHits: HitsInterfaces;
+    diceHits: HitsInterfaces;
     skill: SkillInterfaces;
     money: MoneyInterfaces;
-    weapon: [WeaponInterfaces];
+    weapon: WeaponsInterfaces;
+    spell: SpellsInterfaces;
+    deathSavingThrows: number;
+    notes: string;
   }

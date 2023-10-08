@@ -1,8 +1,7 @@
-export interface WeaponInterfaces {
+export interface SpellInterfaces {
     name: string;
     view: string;
     image?: ImageBitmap;
-    slot: number; //одно или двуруч
     equipped: boolean;
     attack: number;
     damage: number;

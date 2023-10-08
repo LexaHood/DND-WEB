@@ -1,8 +1,8 @@
-import { CharacterInterfaces } from "./character";
+import { CharactersInterfaces } from "./characters";
 
 export interface UserInterfaces {
     name: string;
-    image: ImageBitmap;
+    image?: ImageBitmap;
     token: string;
-    characters: [CharacterInterfaces];
+    characters: CharactersInterfaces;
   }
