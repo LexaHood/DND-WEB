@@ -1,0 +1,17 @@
+html, body {
+  overflow: hidden;
+}
+
+.full-screen-image {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  position: fixed; /* Фиксированное позиционирование относительно вьюпорта */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ширина вьюпорта */
+  height: 100vh; /* Высота вьюпорта */
+  background-size: cover; /* Изображение будет покрывать весь элемент */
+  background-position: center; /* Центрирование изображения */
+  z-index: 1000; /* Убедитесь, что изображение будет поверх других элементов */
+}

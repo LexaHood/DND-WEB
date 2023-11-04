@@ -9,8 +9,8 @@
     "common-types"
   ],
   "scripts": {
-    "start:frontend": "yarn workspace frontend start",
-    "start:backend": "yarn workspace backend start"
+    "start:front": "yarn workspace frontend start",
+    "start:back": "yarn workspace backend start"
   },
   "author": "LexaHood, Sam130687",
   "license": "MIT"
